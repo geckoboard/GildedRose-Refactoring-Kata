@@ -4,7 +4,7 @@ import "testing"
 
 func Test_Foo(t *testing.T) {
 	var items = []*Item{
-		&Item{"foo", 0, 0},
+		{"foo", 0, 0},
 	}
 
 	UpdateQuality(items)
