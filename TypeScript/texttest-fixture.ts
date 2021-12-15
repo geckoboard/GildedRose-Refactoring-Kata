@@ -25,7 +25,7 @@ for (let day = 0; day < days; day++) {
   console.log('-------- day %d --------', day);
   console.log('name, sellIn, quality');
   items.forEach(item => {
-    console.log(item.name, item.sellIn, item.quality);
+    console.log("%s, %d, %d", item.name, item.sellIn, item.quality);
   });
   console.log();
   gildedRose.updateQuality();
