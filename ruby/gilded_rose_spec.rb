@@ -1,3 +1,17 @@
+require 'bundler/inline'
+
+gemfile do
+  source 'https://rubygems.org'
+  gem 'rspec', '~> 3'
+  gem 'simplecov' if ENV["COVERAGE"]
+end
+
+require "rspec/autorun"
+SimpleCov.start do
+  enable_coverage :branch
+
+end if ENV["COVERAGE"]
+
 require File.join(File.dirname(__FILE__), 'gilded_rose')
 
 describe GildedRose do
