@@ -9,25 +9,29 @@ Install dependencies
 ```sh
 npm install
 ```
+or
+```sh
+yarn install
+```
 
 ## Running tests
 
 To run all tests
 
-### Jest way
-
 ```sh
-npm run test:jest
+npm test
+```
+or
+```sh
+yarn test
 ```
 
-To run all tests in watch mode
+## Coverage
 
 ```sh
-npm run test:jest:watch
+npm test -- --coverage
 ```
-
-### Mocha way
-
+or
 ```sh
-npm run test:mocha
+yarn test --coverage
 ```

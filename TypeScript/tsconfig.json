@@ -1,18 +1,14 @@
 {
   "compilerOptions": {
+    "target": "ES2019",
     "module": "commonjs",
-    "target": "es5",
+    "lib": ["ES2019"],
+    "allowJs": true,
+    "noEmit": true,
+    "isolatedModules": true,
     "strict": true,
-    "noImplicitAny": false,
-    "sourceMap": false,
-    "baseUrl": "./",
-    "paths": {
-      "@/*": [
-        "app/*"
-      ]
-    }
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
 }
