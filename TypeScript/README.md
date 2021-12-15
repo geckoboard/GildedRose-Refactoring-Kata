@@ -14,6 +14,16 @@ or
 yarn install
 ```
 
+## Running
+
+```sh
+npm start -- 5
+```
+or
+```sh
+yarn start 5
+```
+
 ## Running tests
 
 To run all tests
@@ -35,3 +45,5 @@ or
 ```sh
 yarn test --coverage
 ```
+
+Then `open coverage/lcov-report/index.html`

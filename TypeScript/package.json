@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Gilded Rose kata in TypeScript",
   "scripts": {
+    "start": "ts-node ./texttest-fixture.ts",
     "test": "jest",
     "check": "tsc"
   },
