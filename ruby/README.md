@@ -3,7 +3,7 @@
 ## Run
 
 ```sh
-ruby texttest_fixture.rb
+ruby texttest_fixture.rb 5
 ```
 
 ## Tests
